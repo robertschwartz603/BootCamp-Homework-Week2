@@ -1,19 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css"><link/>
-    <link rel="stylesheet" href="./assets/style.css"><link/>
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link />
+    <link rel="stylesheet" href="./assets/style.css">
+    <link />
+    <title>Bobby's Portfolio</title>
+    <link rel="icon" type="image-icon" href="./assets/images/favicon.ico">
 </head>
+<!-- all the css needs to be built out. start with header -->
 <body>
-    
+    <header>
+        <h1>Bobby Schwartz</h1>
+        <nav>
+            <ul>
+                <!-- check that the id links are working. better solution? -->
+                <li><a href="#AboutMe" alt="About Me">About Me</a></li>
+                <li><a href="#Projects" alt="Work">Projects</a></li>
+                <li><a href="#ContactMe" alt="Contact Me">Contact Me</a></li>
+                <li><a href="https://drive.google.com/file/d/1eU96HTQuLX9cB_QfBB77jckWIV75QsUg/view" alt="Resume">Resume</a></li>
+            </ul>
+        </nav>
+        <h2>Welcome To My Portfolio</h2>
+        <img src="./assets/images/banner.png" alt="header banner image" />
+    </header>
 
+    <main>
+        <section class="AboutMe" id="#AboutMe">
+            <h3>About Me</h3>
+            <p>
+                Spicy jalapeno bacon ipsum dolor amet incididunt in ground round ball tip, rump corned beef duis
+                porchetta bacon veniam aliquip tail shankle.
+                Biltong sed irure ut pariatur deserunt meatball. Enim andouille turducken ut capicola dolor meatloaf
+                sint commodo spare ribs.
+                Alcatra sirloin ut prosciutto non kevin pork chop.
+            </p>
+        </section>
+        <section class="Projects" id="#Projects">
+            <h3>Work</h3>
+            <!-- these articles are the individual project tiles. get one done w/ css and then copy/paste -->
+            <article>
+                <h3>Project Name</h3>
+                <p>Project description</p>
+                <img src="./assets/images/project-placeholder.jpg" alt="Project Image" />
+            </article>
+        </section>
+        <section class="ContactMe" id="#ContactMe">
+            <h3>Contact Me</h3>
+            <nav>
+                <ul>
+                    <li><a alt="Phone Number">123.456.7891</a></li>
+                    <li><a href="mailto:robertschwartz602@gmail.com" target="_blank" alt="Email">Email</a></li>
+                    <li><a href="https://github.com/robertschwartz603" target="_blank" alt="GitHub">GitHub</a></li>
+                    <li><a href="https://bobbyschwartz.art" target="_blank" alt="Design Portfolio">Design Portfolio</a>
+                    </li>
+                    <li><a href="https://www.spacemanstudios.net/" target="_blank" alt="Art Store">Art Store</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
 
-
-
+    <footer>
+        <h4>Powered by Spaceman Studios 👾</h4>
+        <p>
+            &copy; 2021 Bobby Schwartz | All Rights Reserved
+        </p>
+    </footer>
 
 </body>
+
 </html>

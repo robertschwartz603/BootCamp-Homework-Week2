@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(129, 214, 253);
+}
+
+main {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.AboutMe {
+    background-color: rgb(71, 139, 139);
+}
+
+.Projects {
+    background-color: rgb(39, 114, 124);
+}
+
+.ContactMe {
+    background-color: rgb(35, 82, 90);
+}
+
+footer {
+    background-color: rgb(34, 56, 61);
+}
