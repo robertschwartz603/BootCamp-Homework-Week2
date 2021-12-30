@@ -1,5 +1,74 @@
-header {
-    background-color: rgb(129, 214, 253);
+:root{
+    --darktext: rgb(18, 34, 68);
+    --lighttext: white;
+}
+
+.header {
+    padding: 24px;
+    font-family: Helvetica, sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--darktext);
+    background-image: linear-gradient(to right, rgb(129, 214, 253), rgb(33, 85, 109));
+}
+
+.header h1 {
+    font-size: 24px;
+    display: inline-flex;
+}
+
+/*beginning of footer styling*/
+.header h4 {
+    color: var(--darktext);
+    display: inline-flex;
+}
+
+.header p {
+    float: right;
+    color: var(--lighttext);
+}
+/*end of footer styling*/
+
+.header nav {
+    float: right;
+    padding-top: 6px;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: var(--darktext);
+}
+
+a {
+    text-decoration: none;
+    color: var(--lighttext);
+    transition: 0.3s;
+}
+
+a:hover {
+    font-size: 125%;
+}
+
+.Welcome {
+    font-size: 24px;
+    display: inline-flex;
+    margin-left: 25px;
+    color: var(--lighttext);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Welcome img {
+    display: inline-flex;
+    flex-wrap: wrap;
+
 }
 
 main {
@@ -17,8 +86,4 @@ main {
 
 .ContactMe {
     background-color: rgb(35, 82, 90);
-}
-
-footer {
-    background-color: rgb(34, 56, 61);
 }

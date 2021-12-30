@@ -14,33 +14,37 @@
 </head>
 <!-- all the css needs to be built out. start with header -->
 <body>
-    <header>
+    <header class="header">
         <h1>Bobby Schwartz</h1>
         <nav>
             <ul>
-                <!-- check that the id links are working. better solution? -->
-                <li><a href="#AboutMe" alt="About Me">About Me</a></li>
-                <li><a href="#Projects" alt="Work">Projects</a></li>
-                <li><a href="#ContactMe" alt="Contact Me">Contact Me</a></li>
+                <!-- check that the id links are working. -->
+                <li><a href="#AboutMeSection" alt="About Me">About Me</a></li>
+                <li><a href="#ProjectSection" alt="Work">Projects</a></li>
+                <li><a href="#ContactMeSection" alt="Contact Me">Contact Me</a></li>
                 <li><a href="https://drive.google.com/file/d/1eU96HTQuLX9cB_QfBB77jckWIV75QsUg/view" alt="Resume">Resume</a></li>
             </ul>
         </nav>
-        <h2>Welcome To My Portfolio</h2>
-        <img src="./assets/images/banner.png" alt="header banner image" />
     </header>
 
+    <section class="Welcome">
+        <h2>Welcome To My Portfolio</h2>
+        <img src="./assets/images/banner.png" alt="header banner image" />
+    </section>
+
     <main>
-        <section class="AboutMe" id="#AboutMe">
+        <section class="AboutMe" id="#AboutMeSection">
             <h3>About Me</h3>
             <p>
-                Spicy jalapeno bacon ipsum dolor amet incididunt in ground round ball tip, rump corned beef duis
-                porchetta bacon veniam aliquip tail shankle.
-                Biltong sed irure ut pariatur deserunt meatball. Enim andouille turducken ut capicola dolor meatloaf
-                sint commodo spare ribs.
-                Alcatra sirloin ut prosciutto non kevin pork chop.
+                Bobby Schwartz is a professional Graphic Designer and is working towards certification on fullstack web development. 
+                Additionally, he has experience as a Production Artist, Graphic Designer, and problem-solver in print, advertising, property development and apparel industries. 
+                In addition to production experience, he is also an active fine artist and constantly learning new software, including 3D rendering applications such as Blender. 
+                Major assets include over seven years of experience in freelance work, production design, logocraft, apparel design, packaging design, and work for political campaigns. 
+                Bobby currently resides in the New Hampshire Seacoast area and is an avid skier, motorcyclist, hiker, and pet owner.
+                Bobby graduated from Plymouth State University with a BFA in Graphic Design in Spring 2018. He also holds an Associates of Arts from Front Range Community College. 
             </p>
         </section>
-        <section class="Projects" id="#Projects">
+        <section class="Projects" id="#ProjectSection">
             <h3>Work</h3>
             <!-- these articles are the individual project tiles. get one done w/ css and then copy/paste -->
             <article>
@@ -48,8 +52,9 @@
                 <p>Project description</p>
                 <img src="./assets/images/project-placeholder.jpg" alt="Project Image" />
             </article>
+            <!-- these articles are the individual project tiles. get one done w/ css and then copy/paste -->
         </section>
-        <section class="ContactMe" id="#ContactMe">
+        <section class="ContactMe" id="#ContactMeSection">
             <h3>Contact Me</h3>
             <nav>
                 <ul>
@@ -64,7 +69,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="header">
         <h4>Powered by Spaceman Studios 👾</h4>
         <p>
             &copy; 2021 Bobby Schwartz | All Rights Reserved
