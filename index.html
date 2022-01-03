@@ -12,54 +12,77 @@
     <title>Bobby's Portfolio</title>
     <link rel="icon" type="image-icon" href="./assets/images/favicon.ico">
 </head>
-<!-- all the css needs to be built out. start with header -->
+
 <body>
     <header class="header">
         <h1>Bobby Schwartz</h1>
         <nav>
             <ul>
-                <!-- check that the id links are working. -->
                 <li><a href="#AboutMeSection" alt="About Me">About Me</a></li>
                 <li><a href="#ProjectSection" alt="Work">Projects</a></li>
                 <li><a href="#ContactMeSection" alt="Contact Me">Contact Me</a></li>
-                <li><a href="https://drive.google.com/file/d/1eU96HTQuLX9cB_QfBB77jckWIV75QsUg/view" alt="Resume">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1eU96HTQuLX9cB_QfBB77jckWIV75QsUg/view"
+                        alt="Resume">Resume</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="Welcome">
-        <h2>Welcome To My Portfolio</h2>
-        <img src="./assets/images/banner.png" alt="header banner image" />
+        <h2>//Welcome To My Portfolio</h2>
+        <img src="./assets/images/banner.png" alt="header banner image" class="welcomeimg" />
     </section>
 
     <main>
         <section class="AboutMe" id="#AboutMeSection">
             <h3>About Me</h3>
             <p>
-                Bobby Schwartz is a professional Graphic Designer and is working towards certification on fullstack web development. 
-                Additionally, he has experience as a Production Artist, Graphic Designer, and problem-solver in print, advertising, property development and apparel industries. 
-                In addition to production experience, he is also an active fine artist and constantly learning new software, including 3D rendering applications such as Blender. 
-                Major assets include over seven years of experience in freelance work, production design, logocraft, apparel design, packaging design, and work for political campaigns. 
-                Bobby currently resides in the New Hampshire Seacoast area and is an avid skier, motorcyclist, hiker, and pet owner.
-                Bobby graduated from Plymouth State University with a BFA in Graphic Design in Spring 2018. He also holds an Associates of Arts from Front Range Community College. 
+                Bobby Schwartz is a professional Graphic Designer and is working towards certification on fullstack web
+                development.
+                Additionally, he has experience as a Production Artist, Graphic Designer, and problem-solver in print,
+                advertising, property development and apparel industries.
+                In addition to production experience, he is also an active fine artist and constantly learning new
+                software, including 3D rendering applications such as Blender.
+                Bobby currently resides in the New Hampshire Seacoast area and is an avid skier, motorcyclist, hiker,
+                and pet owner.
             </p>
         </section>
-        <section class="Projects" id="#ProjectSection">
-            <h3>Work</h3>
-            <!-- these articles are the individual project tiles. get one done w/ css and then copy/paste -->
-            <article>
-                <h3>Project Name</h3>
-                <p>Project description</p>
-                <img src="./assets/images/project-placeholder.jpg" alt="Project Image" />
-            </article>
-            <!-- these articles are the individual project tiles. get one done w/ css and then copy/paste -->
-        </section>
+        <div class="Projects" id="#ProjectSection">
+            <!--individual project tiles. -->
+            <section class="card-main">
+                <article class="cardfirst">
+                    <h3>Project Name</h3>
+                    <p>Project one description</p>
+                    <a href="https://ak.picdn.net/shutterstock/videos/1019647840/thumb/1.jpg" target="_blank"><img src="./assets/images/project-placeholder.jpg" alt="Project 1 Link"/>
+                </article>
+                <article class="card">
+                    <h3>Project Name</h3>
+                    <p>Project two description</p>
+                    <a href="https://ak.picdn.net/shutterstock/videos/1019654707/thumb/1.jpg" target="_blank"><img src="./assets/images/project-placeholder.jpg" alt="Project 2 Link"/>
+                </article>
+                <article class="card">
+                    <h3>Project Name</h3>
+                    <p>Project three description</p>
+                    <a href="https://ak.picdn.net/shutterstock/videos/1019472739/thumb/1.jpg" target="_blank"><img src="./assets/images/project-placeholder.jpg" alt="Project 3 Link"/>
+                </article>
+                <article class="card">
+                    <h3>Project Name</h3>
+                    <p>Project four description</p>
+                    <a href="https://ak.picdn.net/shutterstock/videos/1019654839/thumb/1.jpg" target="_blank"><img src="./assets/images/project-placeholder.jpg" alt="Project 4 Link"/>
+                </article>
+                <article class="card">
+                    <h3>Project Name</h3>
+                    <p>Project five description</p>
+                    <a href="https://ak.picdn.net/shutterstock/videos/1019676979/thumb/1.jpg" target="_blank"><img src="./assets/images/project-placeholder.jpg" alt="Project 5 Link"/>
+                </article>
+            </section>
+            <!--individual project tiles. -->
+
+        </div>
         <section class="ContactMe" id="#ContactMeSection">
-            <h3>Contact Me</h3>
             <nav>
                 <ul>
-                    <li><a alt="Phone Number">123.456.7891</a></li>
-                    <li><a href="mailto:robertschwartz602@gmail.com" target="_blank" alt="Email">Email</a></li>
+                    <li><a alt="Phone Number">Phone:123.456.7891</a></li>
+                    <li><a href="mailto:robertschwartz603@gmail.com" target="_blank" alt="Email">Email</a></li>
                     <li><a href="https://github.com/robertschwartz603" target="_blank" alt="GitHub">GitHub</a></li>
                     <li><a href="https://bobbyschwartz.art" target="_blank" alt="Design Portfolio">Design Portfolio</a>
                     </li>

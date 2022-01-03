@@ -1,6 +1,13 @@
 :root{
-    --darktext: rgb(18, 34, 68);
-    --lighttext: white;
+    --darktext: rgb(18, 41, 68);
+    --lighttext: rgb(233, 248, 255);
+}
+/*start title&nav section styling*/
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
 
 .header {
@@ -16,18 +23,6 @@
     font-size: 24px;
     display: inline-flex;
 }
-
-/*beginning of footer styling*/
-.header h4 {
-    color: var(--darktext);
-    display: inline-flex;
-}
-
-.header p {
-    float: right;
-    color: var(--lighttext);
-}
-/*end of footer styling*/
 
 .header nav {
     float: right;
@@ -47,7 +42,7 @@
     color: var(--darktext);
 }
 
-a {
+.header a {
     text-decoration: none;
     color: var(--lighttext);
     transition: 0.3s;
@@ -57,19 +52,33 @@ a:hover {
     font-size: 125%;
 }
 
+/*end title&nav section styling*/
+
+/*start image welcome section styling*/
+
 .Welcome {
+    height: 275px;
+    width: 100%;
+    position: relative;
+}
+
+.Welcome h2 {
     font-size: 24px;
-    display: inline-flex;
-    margin-left: 25px;
+    z-index: 100;
+    position: absolute;
+    left: 50px;
+    top: 200px;
     color: var(--lighttext);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.Welcome img {
-    display: inline-flex;
-    flex-wrap: wrap;
-
+.welcomeimg {
+    left:0;
+    right:0;
 }
+
+/*end of image welcome section styling*/
+
 
 main {
     font-family: Helvetica, sans-serif;
@@ -77,13 +86,124 @@ main {
 
 
 .AboutMe {
-    background-color: rgb(71, 139, 139);
+    background-color: rgb(165, 231, 243);
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    line-height: 140%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+
 }
 
+/*start of project card styling*/
 .Projects {
-    background-color: rgb(39, 114, 124);
+    background-image: linear-gradient(to top, rgb(165, 231, 243), rgba(33, 85, 109, 0.637));
 }
+
+.card-main { 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+article:hover {
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.card-main img {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.cardfirst {
+    width: 100%;
+    margin: 4px;
+    border: 4px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    background-color:rgb(33, 85, 109);
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 48%;
+    margin: 4px;
+    border: 4px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    background-color:rgb(33, 85, 109);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-main h3 {
+    background-color:rgb(112, 172, 180);
+    border-radius: 4px;
+    padding: 4px;
+    display: block;
+    font-size: 24px;
+    flex-direction: column;
+}
+
+.card-main p {
+    background-color: rgba(33, 85, 109, 0.637) ;
+    color: var(--lighttext);
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+/*end of project card styling*/
+
+/*start of contact me section styling*/
 
 .ContactMe {
-    background-color: rgb(35, 82, 90);
+    background-color: rgb(164, 231, 243);
 }
+
+.ContactMe nav {
+    padding-top: 20px;
+    word-spacing: 20px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ContactMe nav ul {
+    list-style-type: none;
+}
+
+.ContactMe nav ul li {
+    display: inline-block;
+}
+
+.ContactMe a {
+    text-decoration: none;
+    color: var(--darktext);
+    transition: 0.3s;
+}
+/*end of contact me section styling*/
+
+/*beginning of footer styling*/
+.header h4 {
+    color: var(--darktext);
+    display: inline-flex;
+}
+
+.header p {
+    float: right;
+    color: var(--lighttext);
+}
+/*end of footer styling*/
