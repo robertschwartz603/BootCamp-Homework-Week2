@@ -7,105 +7,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
         rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous"> ">
+        crossorigin="anonymous">
     <link />
-    <link rel="stylesheet" href="./assets/style.css">
+    <!-- <link rel="stylesheet" href="./assets/style.css"> -->
     <link />
     <title>Bobby's Portfolio</title>
     <link rel="icon" type="image-icon" href="./assets/images/favicon.ico">
 </head>
 
 <body>
-    <header class="header">
-        <h1>Bobby Schwartz</h1>
-        <nav>
-            <ul>
-                <li><a href="#AboutMeSection" alt="About Me">About Me</a></li>
-                <li><a href="#ProjectSection" alt="Work">Projects</a></li>
-                <li><a href="#ContactMeSection" alt="Contact Me">Contact Me</a></li>
-                <li><a href="https://drive.google.com/file/d/1eU96HTQuLX9cB_QfBB77jckWIV75QsUg/view"
-                        alt="Resume">Resume</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bobby Schwartz's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#AboutMeSection">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ProjectSection">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ContactMeSection">Contact Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://drive.google.com/file/d/1eU96HTQuLX9cB_QfBB77jckWIV75QsUg/view"
+                                alt="Resume">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <section class="Welcome">
-        <h2>//Welcome To My Portfolio</h2>
-        <img src="./assets/images/banner.png" alt="header banner image" class="welcomeimg" />
+        <div class="container-fluid bg-dark text-light p-5">
+            <div class="container bg-dark p-5">
+                <h1 class="display-4">// Welcome To My Portfolio</h1>
+                <hr>
+                <!-- <img src="./assets/images/banner.png" alt="header banner image" class="welcomeimg" /> -->
+                <p>Explore my web development projects below</p>
+            </div>
+        </div>
     </section>
 
     <main>
-        <section class="AboutMe" id="#AboutMeSection">
-            <h3>About Me</h3>
-            <p>
+        <div class="card">
+            <div class="card-body">
+                <h4>About Me</h4>
                 Bobby Schwartz is a professional Graphic Designer and is working towards certification on fullstack web
-                development.
-                Additionally, he has experience as a Production Artist, Graphic Designer, and problem-solver in print,
-                advertising, property development and apparel industries.
-                In addition to production experience, he is also an active fine artist and constantly learning new
-                software, including 3D rendering applications such as Blender.
-                Bobby currently resides in the New Hampshire Seacoast area and is an avid skier, motorcyclist, hiker,
+                development. He has experience as a Production Artist, Graphic Designer, and problem-solver in print,
+                advertising, property development and apparel industries.In addition to production experience, he is
+                also an active fine artist and constantly learning new
+                software, including 3D rendering applications such as Blender. Bobby currently resides in the New
+                Hampshire Seacoast area and is an avid skier, motorcyclist, hiker,
                 and pet owner.
-            </p>
-        </section>
+            </div>
+        </div>
+
         <div class="Projects" id="#ProjectSection">
-            <!--individual project tiles. -->
-            <section class="card-main">
-                <article class="cardfirst">
-                    <h3>CarryOn</h3>
-                    <p>CarryOn is a travel information website that allows a user to search a specified city's lodges,
-                        travel accommodations, and places of interest.</p>
-                    <a href="https://robertschwartz603.github.io/CarryOn/" target="_blank"><img
-                            src="./assets/images/CarryOn home-page.png" alt="Project 1 Link" />
-                </article>
-                <article class="card">
-                    <h3>Project Name</h3>
-                    <p>Project two description</p>
-                    <a href="https://ak.picdn.net/shutterstock/videos/1019654707/thumb/1.jpg" target="_blank"><img
-                            src="./assets/images/project-placeholder.jpg" alt="Project 2 Link" />
-                </article>
-                <article class="card">
-                    <h3>Project Name</h3>
-                    <p>Project three description</p>
-                    <a href="https://ak.picdn.net/shutterstock/videos/1019472739/thumb/1.jpg" target="_blank"><img
-                            src="./assets/images/project-placeholder.jpg" alt="Project 3 Link" />
-                </article>
-                <article class="card">
-                    <h3>Project Name</h3>
-                    <p>Project four description</p>
-                    <a href="https://ak.picdn.net/shutterstock/videos/1019654839/thumb/1.jpg" target="_blank"><img
-                            src="./assets/images/project-placeholder.jpg" alt="Project 4 Link" />
-                </article>
-                <article class="card">
-                    <h3>Project Name</h3>
-                    <p>Project five description</p>
-                    <a href="https://ak.picdn.net/shutterstock/videos/1019676979/thumb/1.jpg" target="_blank"><img
-                            src="./assets/images/project-placeholder.jpg" alt="Project 5 Link" />
-                </article>
-            </section>
-            <!--individual project tiles. -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!--project 1 card -->
+                        <div class="card" style="width: 32rem;">
+                            <img src="./assets/images/CarryOn home-page.png" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">CarryOn</h5>
+                                <p class="card-text">CarryOn is a travel information website that allows a user to
+                                    search a
+                                    specified city's lodges,
+                                    travel accommodations, and places of interest.</p>
+                                <a href="https://robertschwartz603.github.io/CarryOn/" class="btn btn-primary">Explore
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!--project 2 card -->
+                        <div class="card" style="width: 32rem;">
+                            <img src="./assets/images/project-placeholder.jpg" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">Project two description.</p>
+                                <a href="https://ak.picdn.net/shutterstock/videos/1019654707/thumb/1.jpg"
+                                    class="btn btn-primary">Explore Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!--project 3 card -->
+                        <div class="card" style="width: 32rem;">
+                            <img src="./assets/images/project-placeholder.jpg" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">Project three description.</p>
+                                <a href="https://ak.picdn.net/shutterstock/videos/1019472739/thumb/1.jpg"
+                                    class="btn btn-primary">Explore Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!--project 4 card -->
+                        <div class="card" style="width: 32rem;">
+                            <img src="./assets/images/project-placeholder.jpg" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 4</h5>
+                                <p class="card-text">Project four description.</p>
+                                <a href="https://ak.picdn.net/shutterstock/videos/1019654839/thumb/1.jpg"
+                                    class="btn btn-primary">Explore Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!--project 5 card -->
+                        <div class="card" style="width: 32rem;">
+                            <img src="./assets/images/project-placeholder.jpg" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 5</h5>
+                                <p class="card-text">Project five description.</p>
+                                <a href="https://ak.picdn.net/shutterstock/videos/1019676979/thumb/1.jpg"
+                                    class="btn btn-primary">Explore Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end individual project tiles. -->
 
         </div>
         <section class="ContactMe" id="#ContactMeSection">
-            <nav>
-                <ul>
-                    <li><a alt="Phone Number">Phone:123.456.7891</a></li>
-                    <li><a href="mailto:robertschwartz603@gmail.com" target="_blank" alt="Email">Email</a></li>
-                    <li><a href="https://github.com/robertschwartz603" target="_blank" alt="GitHub">GitHub</a></li>
-                    <li><a href="https://bobbyschwartz.art" target="_blank" alt="Design Portfolio">Design Portfolio</a>
-                    </li>
-                    <li><a href="https://www.spacemanstudios.net/" target="_blank" alt="Art Store">Art Store</a></li>
-                </ul>
-            </nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Phone:123.456.7891</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:robertschwartz603@gmail.com" target="_blank">Email</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/robertschwartz603" target="_blank">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bobbyschwartz.art" target="_blank">Design Portfolio</a>
+                </li>
+            </ul>
         </section>
     </main>
 
-    <footer class="header">
-        <h4>Powered by Spaceman Studios 👾</h4>
-        <p>
-            &copy; 2021 Bobby Schwartz | All Rights Reserved
-        </p>
+    <footer class="footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <h5>Powered by Spaceman Studios 👾</h5>
+            </li>
+            <li class="nav-item">
+                <p>
+                    &copy; 2021 Bobby Schwartz | All Rights Reserved
+                </p>
+            </li>
+        </ul>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
