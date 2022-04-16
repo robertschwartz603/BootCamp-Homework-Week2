@@ -1,16 +1,32 @@
-# BootCamp-Homework-Week2
+# My Portfolio
+
+![GitHub](https://img.shields.io/github/license/robertschwartz603/BootCamp-Homework-Week2)
+
+Deployed Site: https://robertschwartz603.github.io/BootCamp-Homework-Week2/
+
+## Description
 This is a deployed web application that showcases my various projects developed over the course of full-stack bootcamp.
+this has been updated with with the help of Bootstrap!
 
-this has been updated with CSS styling and is designed to show off more advanced techniques such as hover animations and elegant flexbox styling.
+![Screen grab:](./assets/images/screenshot.jpg)
 
-Each project tile will slowly be updated as projects are deployed. 
-as of 1/3/21 - they are placeholders.
+## Table of Contents
+- [Description](#description)
+- [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-V 1.0 - Initial Deploy
-	-placeholder project links
-	-known bug with flexboxes.
-	-baseline styling and html complete.
+## Usage
+Use the navigation bar to navigate through different sections of my portfolio.
 
+## License
+This project and it's contents are licensed under: MIT
 
+## Tests
+![GitHub license](https://img.shields.io/badge/test-100%25-success)
 
+## Questions
 
+Github: https://github.com/robertschwartz603
+Github Repo: https://github.com/robertschwartz603/BootCamp-Homework-Week2
